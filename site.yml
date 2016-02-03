@@ -10,10 +10,10 @@
   roles:
     - postgres
 
-- hosts: memcachedservers
-  remote_user: root
-  roles:
-    - memcached
+#- hosts: memcachedservers
+#  remote_user: root
+#  roles:
+#    - memcached
 
 - hosts: rabbitmqservers
   remote_user: root
